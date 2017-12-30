@@ -1,0 +1,15 @@
+.Toolbar {
+	background-image: radial-gradient(at 30% top, rgba(20, 53, 67, 1) 0%, rgba(8, 28, 36, 1) 70%);
+	padding: .5rem 0;
+}
+
+.ToolbarContent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Nav {
+	display: flex;
+	justify-content: space-between;;
+	align-items: center;
+}

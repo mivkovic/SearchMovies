@@ -1,0 +1,20 @@
+.MovieInfo {
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Imdb{
+	color:rgb(0, 212, 116);
+	text-decoration: none;
+	margin: 15px ;
+	transition: all .5s ease;
+}
+
+.Imdb:hover{
+	color:rgb(5, 146, 82);
+}
+
+.Desc {
+	margin: 30px 0px 60px 0px;
+}

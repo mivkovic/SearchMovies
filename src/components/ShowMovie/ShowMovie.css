@@ -1,0 +1,94 @@
+.Movie {
+	flex-basis: 15%;
+	margin: 0px 1% 50px 1%;
+	position: relative;
+	overflow: hidden;
+}
+
+.Movie h1{
+	font-size: 18px;
+	color:white;
+	border-bottom: 3px solid #00d474;
+	border-top: 3px solid #00d474;
+	padding: 5px 10px;
+	margin-bottom: 25px;
+}
+
+
+.Movie h4{
+	margin-bottom: 25px;	
+}
+
+.Over{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: rgba(0,0,0,0.9);
+	color:white;
+	padding: 1rem;
+	transform: translateX(-100%);
+	transition: transform .3s ease, opacity .5s ease;
+	opacity: 0;
+}
+
+
+.Movie:hover .Over{
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.Movie:hover img{
+	transform: scale(1.1,1.1) rotate(3deg);
+
+}
+
+
+.Movie img{
+	width: 100%;
+	max-width: 100%;
+	transform: scale(1,1) rotate(0deg);
+	transition: transform .4s ease;
+}
+
+@media (max-width: 1268px){
+	.Movie {
+		flex-basis: 20%;
+		margin: 0px 1% 50px 1%;
+		position: relative;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 1000px){
+	.Movie {
+		flex-basis: 35%;
+		margin: 0px 1% 50px 1%;
+		position: relative;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 800px){
+	.Movie {
+		flex-basis: 45%;
+		margin: 0px 1% 50px 1%;
+		position: relative;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 400px){
+	.Movie {
+		flex-basis: 95%;
+		margin: 0px 1% 50px 1%;
+		position: relative;
+		overflow: hidden;
+	}
+}

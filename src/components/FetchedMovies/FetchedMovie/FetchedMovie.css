@@ -1,0 +1,34 @@
+.FetchedMovie{
+	animation: opening .5s ease;
+	display: flex;
+	height: 60px;
+}
+
+.Image {
+	width: 60px;
+	height: auto;
+}
+
+.FetchedMovie a {
+	flex:1;
+	color:white;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-bottom: 1px solid #00d474;
+	background: rgba(0,0,0,0.95);
+	display: block;
+	transition: all .5s ease;
+}
+
+.FetchedMovie a:hover{
+	background: #5C5C5C;
+}
+
+@keyframes opening{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}

@@ -1,0 +1,11 @@
+.Text{
+	margin: 1rem 0;
+	font-size: 27px;
+}
+
+.Genre {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+

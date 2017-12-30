@@ -1,0 +1,9 @@
+.FetchedMovies {
+	width: 250px;
+	list-style: none;
+	position: absolute;
+	top:100%;
+	right: 0;
+	transition: all 2s ease;
+	z-index: 10;
+}
